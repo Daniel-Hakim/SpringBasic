@@ -51,14 +51,14 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <!--distributionManagement>
+    <distributionManagement>
         <repository>
             <id>internal.repo</id>
             <name>Internal repo</name>
-            <url>file:///C:/Users/ibmclient/Desktop/uscis/cog</url>
+            <url>file:///C:/Jenkinshakim</url>
         </repository>
-    </distributionManagement>-->
-    <distributionManagement>
+    </distributionManagement>
+   <!-- <distributionManagement>
         <repository>
             <uniqueVersion>false</uniqueVersion>
             <id>corp1</id>
@@ -66,7 +66,7 @@
             <url>scp://repo/maven2</url>
             <layout>default</layout>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 
    <!-- <build>
         <plugins>
